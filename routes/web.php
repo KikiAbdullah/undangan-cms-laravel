@@ -15,5 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'Dashboard\C_dashboard@index');
 
+//form
+Route::get('/form', 'Form\C_form@index');
+Route::post('/form/store', 'Form\C_form@store');
+
 //get_undangan
 Route::get('/{slug_undangan}', 'Undangan\C_undangan@get_undangan');

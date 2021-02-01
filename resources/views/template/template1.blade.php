@@ -76,7 +76,7 @@
 
     <div id="page">
 
-        <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(assets/template1/images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+        <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url('{{ url('/upload/undangan/'.$content['config']->slug_undangan.'/config/'.$content['config']->background_1) }}');" data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
@@ -127,7 +127,7 @@
             </div>
         </div>
 
-        <div id="fh5co-event" class="fh5co-bg" style="background-image:url(assets/template1/images/img_bg_3.jpg);">
+        <div id="fh5co-event" class="fh5co-bg" style="background-image:url('{{ url('/upload/undangan/'.$content['config']->slug_undangan.'/config/'.$content['config']->background_2) }}');">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
@@ -308,7 +308,7 @@
             </div>
         </div>
 
-        <div id="fh5co-started" class="fh5co-bg" style="background-image:url(assets/template1/images/img_bg_4.jpg);">
+        <div id="fh5co-started" class="fh5co-bg" style="background-image:url('{{ url('/upload/undangan/'.$content['config']->slug_undangan.'/config/'.$content['config']->background_3) }}');">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row animate-box">
