@@ -30,7 +30,7 @@ class Undangan extends Model
 
         $foto_prewed = DB::table('foto_prewed')
             ->where('slug_undangan', $slug_undangan)
-            ->get()->toArray();
+            ->first();
 
         $moment = DB::table('moment')
             ->where('slug_undangan', $slug_undangan)

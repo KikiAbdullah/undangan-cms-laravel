@@ -21,3 +21,6 @@ Route::post('/form/store', 'Form\C_form@store');
 
 //get_undangan
 Route::get('/{slug_undangan}', 'Undangan\C_undangan@get_undangan');
+
+//send_ucapan
+Route::post('/send_ucapan', 'Undangan\C_undangan@send_ucapan');
